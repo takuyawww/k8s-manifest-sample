@@ -1,0 +1,11 @@
+# https://artifacthub.io/packages/helm/argo/argocd
+
+repositories:
+  - name: argo-cd
+    url: https://argoproj.github.io/argo-helm
+
+releases:
+  - name: argo-cd
+    namespace: argocd
+    chart: argo-cd/argo-cd
+    version: 5.31.1
