@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-app-1-service
+spec:
+  selector:
+    name: backend-app-1
+  type: ClusterIP
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8081
+      name: http
+# TODO: prdを構築する際に、kustomization.yamlに共通化する

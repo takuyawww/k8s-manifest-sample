@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-app-1-deployment
+  labels:
+    app: backend-app-1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: backend-app-1
+  template:
+    metadata:
+      labels:
+        app: backend-app-1
+    spec:
+      containers:
+        - name: backend-app-1
+          image: k8s-sample-backend:00001
+          imagePullPolicy: Never # ローカルのimageを取得する
+          ports:
+            - containerPort: 8081
+# TODO: prdを構築する際に、kustomization.yamlに共通化する
