@@ -11,4 +11,3 @@ spec:
       port: 80
       targetPort: 8081
       name: http
-# TODO: prdを構築する際に、kustomization.yamlに共通化する

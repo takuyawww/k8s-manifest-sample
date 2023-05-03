@@ -20,4 +20,3 @@ spec:
           imagePullPolicy: Never # ローカルのimageを取得する
           ports:
             - containerPort: 8081
-# TODO: prdを構築する際に、kustomization.yamlに共通化する
