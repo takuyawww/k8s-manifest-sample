@@ -7,7 +7,7 @@ metadata:
 spec:
   selector:
     app: backend-app-1
-  type: NodePort
+  type: ClusterIP
   ports:
     - protocol: TCP
       port: 8081
