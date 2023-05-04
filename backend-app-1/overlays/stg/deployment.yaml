@@ -1,3 +1,5 @@
+# TODO: prd構築時に共通化できるものがあれば共通化する
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
