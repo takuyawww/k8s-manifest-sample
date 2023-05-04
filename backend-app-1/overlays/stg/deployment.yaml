@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend-app-1
-          image: k8s-sample-backend:00001
+          image: k8s-sample-backend-app-1:00001
           imagePullPolicy: Never # ローカルのimageを取得する
           ports:
             - containerPort: 8081
