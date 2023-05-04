@@ -1,0 +1,7 @@
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: backend-app-1-mapping
+spec:
+  prefix: "/"
+  service: service.namespace.svc.cluster.local:8081
