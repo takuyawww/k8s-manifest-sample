@@ -1,0 +1,9 @@
+repositories:
+  - name: edge-stack
+    url: https://s3.amazonaws.com/datawire-static-files/charts
+
+releases:
+  - name: edge-stack
+    namespace: ambassador
+    chart: edge-stack/edge-stack
+    version: 8.6.0
