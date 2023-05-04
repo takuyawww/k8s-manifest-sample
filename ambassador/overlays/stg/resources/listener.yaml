@@ -1,7 +1,7 @@
 apiVersion: getambassador.io/v3alpha1
 kind: Listener
 metadata:
-  name: ambassador-edge-stack-http-listener
+  name: ambassador-edge-stack-http-listener-8080
 spec:
   port: 8080
   protocol: HTTP
