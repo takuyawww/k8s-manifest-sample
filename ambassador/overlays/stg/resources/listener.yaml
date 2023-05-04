@@ -1,0 +1,11 @@
+apiVersion: getambassador.io/v3alpha1
+kind: Listener
+metadata:
+  name: ambassador-edge-stack-http-listener
+spec:
+  port: 8080
+  protocol: HTTP
+  securityModel: XFP
+  hostBinding:
+    namespace:
+      from: ALL
