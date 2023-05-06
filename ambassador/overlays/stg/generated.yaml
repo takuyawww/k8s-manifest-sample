@@ -667,8 +667,6 @@ spec:
               readOnly: true
             
           resources:
-            dnsPolicy: ClusterFirstWithHostNet
-            hostNetwork: true
             limits:
               cpu: 1000m
               memory: 600Mi
