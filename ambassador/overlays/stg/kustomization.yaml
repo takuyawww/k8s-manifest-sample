@@ -5,3 +5,4 @@ resources:
   - generated.yaml
   - resources/listener.yaml
   - resources/module.yaml
+  - resources/host.yaml
