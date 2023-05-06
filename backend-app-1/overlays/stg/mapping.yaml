@@ -6,3 +6,4 @@ spec:
   hostname: "127.0.0.1"
   prefix: "/api/"
   service: service.backend-app-1
+  prefix_redirect: "/api/version"
