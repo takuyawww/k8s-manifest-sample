@@ -468,7 +468,7 @@ metadata:
     a8r.io/support: https://www.getambassador.io/about-us/support/
     a8r.io/dependencies: edge-stack-redis.ambassador
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
     - name: http
       port: 80

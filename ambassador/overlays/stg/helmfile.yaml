@@ -7,3 +7,5 @@ releases:
     namespace: ambassador
     chart: edge-stack/edge-stack
     version: 8.6.0
+    values:
+      - values.yaml

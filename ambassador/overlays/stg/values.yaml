@@ -1,0 +1,3 @@
+emissary-ingress:
+  service:
+    type: "NodePort"
