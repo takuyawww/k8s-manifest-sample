@@ -3,6 +3,7 @@ kind: Mapping
 metadata:
   name: backend-app-1-mapping
 spec:
-  hostname: http://127.0.0.1
+  hostname: "*"
   prefix: "/"
   service: service.backend-app-1
+  host_redirect: true
