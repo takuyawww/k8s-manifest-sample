@@ -4,3 +4,4 @@ resources:
   - https://app.getambassador.io/yaml/edge-stack/3.6.0/aes-crds.yaml
   - generated.yaml
   - resources/listener.yaml
+  - resources/module.yaml
