@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: sleep
+  name: sleep-job
 spec:
   completions: 5
   parallelism: 3
