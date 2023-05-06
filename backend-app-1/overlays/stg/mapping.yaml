@@ -3,7 +3,7 @@ kind: Mapping
 metadata:
   name: backend-app-1-mapping
 spec:
-  hostname: "127.0.0.1"
+  hostname: "127.0.0.1:8081"
   prefix: "/api/"
   service: service.backend-app-1
   prefix_redirect: "/api/version"
