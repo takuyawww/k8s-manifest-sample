@@ -4,4 +4,4 @@ metadata:
   name: backend-app-1-mapping
 spec:
   prefix: "/"
-  service: service.namespace.svc.cluster.local:8081
+  service: service.backend-app-1
