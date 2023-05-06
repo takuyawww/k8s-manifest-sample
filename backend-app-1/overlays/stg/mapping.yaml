@@ -3,5 +3,6 @@ kind: Mapping
 metadata:
   name: backend-app-1-mapping
 spec:
+  hostname: "*"
   prefix: "/"
   service: service.backend-app-1
