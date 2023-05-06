@@ -7,4 +7,3 @@ spec:
   prefix: "/api/"
   service: 10.100.72.38
   host_redirect: true
-  prefix_redirect: "/api/version"
