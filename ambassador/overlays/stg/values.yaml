@@ -2,6 +2,6 @@ emissary-ingress:
   service:
     type: "NodePort"
     ports:
-      port: 80
-      targetPort: 8000
-      protocol: TCP
+      - name: http
+        port: 80
+        targetPort: 8080
