@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: job
+spec:
+  project: default
+  destination:
+    namespace: job
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: https://github.com/takuyawww/k8s-manifest-sample
+    targetRevision: main
+    path: "job/overlays/stg"
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
