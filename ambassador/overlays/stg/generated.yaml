@@ -472,7 +472,7 @@ spec:
   ports:
     - name: http
       port: 80
-      targetPort: 8080
+      targetPort: 8000
   selector:
     app.kubernetes.io/name: edge-stack
     app.kubernetes.io/instance: edge-stack
@@ -622,7 +622,7 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
-              containerPort: 8080
+              containerPort: 8000
             - name: admin
               containerPort: 8877
           env:
