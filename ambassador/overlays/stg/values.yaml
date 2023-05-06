@@ -5,3 +5,6 @@ emissary-ingress:
       - name: http
         port: 80
         targetPort: 8000
+  resources:
+    dnsPolicy: "ClusterFirstWithHostNet"
+    hostNetwork: true
