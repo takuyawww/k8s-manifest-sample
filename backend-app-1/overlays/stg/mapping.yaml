@@ -2,8 +2,10 @@ apiVersion: getambassador.io/v2
 kind: Mapping
 metadata:
   name: backend-app-1-mapping
+  labels:
+    localhost: localhost
 spec:
-  hostname: "*"
+  hostname: "127.0.0.1"
   prefix: "/api/"
-  service: 10.100.72.38
-  host_redirect: true
+  service: service.backend-app-1
+  prefix_redirect: "/api/version"
