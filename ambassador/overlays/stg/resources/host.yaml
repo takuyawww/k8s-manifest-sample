@@ -1,0 +1,9 @@
+apiVersion: getambassador.io/v3alpha1
+kind: Host
+metadata:
+  name: localhost
+spec:
+  hostname: "127.0.0.1"
+  requestPolicy:
+  insecure:
+    action: Route
