@@ -6,4 +6,4 @@ releases:
   - name: edge-stack
     namespace: ambassador
     chart: edge-stack/edge-stack
-    version: 7.6.1
+    version: 8.6.0

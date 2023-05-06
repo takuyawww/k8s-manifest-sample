@@ -7,7 +7,7 @@ metadata:
   namespace: ambassador
   labels:
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -21,7 +21,7 @@ metadata:
   namespace: ambassador
   labels:
     app.kubernetes.io/name: edge-stack
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -46,7 +46,7 @@ metadata:
   name: edge-stack-agent
   labels:
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -65,7 +65,7 @@ metadata:
   labels:
     rbac.getambassador.io/role-group: edge-stack-agent
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -83,7 +83,7 @@ metadata:
   labels:
     rbac.getambassador.io/role-group: edge-stack-agent
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -101,7 +101,7 @@ metadata:
   labels:
     rbac.getambassador.io/role-group: edge-stack-agent
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -119,7 +119,7 @@ metadata:
   labels:
     rbac.getambassador.io/role-group: edge-stack-agent
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -137,7 +137,7 @@ metadata:
   labels:
     rbac.getambassador.io/role-group: edge-stack-agent
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -155,7 +155,7 @@ metadata:
   labels:
     rbac.getambassador.io/role-group: edge-stack-agent
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -178,7 +178,7 @@ metadata:
   name: edge-stack
   labels:
     app.kubernetes.io/name: edge-stack
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -202,7 +202,7 @@ metadata:
   name: edge-stack-crd
   labels:
     app.kubernetes.io/name: edge-stack
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -223,7 +223,7 @@ metadata:
   name: edge-stack-watch
   labels:
     app.kubernetes.io/name: edge-stack
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -275,7 +275,7 @@ metadata:
   labels:
     app.kubernetes.io/name: edge-stack
     app.kubernetes.io/part-of: edge-stack
-    helm.sh/chart: edge-stack-7.6.1
+    helm.sh/chart: edge-stack-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/managed-by: Helm
     product: aes
@@ -304,7 +304,7 @@ metadata:
   name: edge-stack-agent
   labels:
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -325,7 +325,7 @@ metadata:
   name: edge-stack
   labels:
     app.kubernetes.io/name: edge-stack
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -347,7 +347,7 @@ metadata:
   namespace: ambassador
   labels:
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -356,6 +356,9 @@ rules:
 - apiGroups: [""]
   resources: [ "configmaps" ]
   verbs: [ "get", "list", "watch" ]
+- apiGroups: [""]
+  resources: [ "secrets"]
+  verbs: [ "get", "create", "delete", "patch", "watch"]
 ---
 # Source: edge-stack/charts/emissary-ingress/templates/ambassador-agent.yaml
 apiVersion: rbac.authorization.k8s.io/v1
@@ -365,7 +368,7 @@ metadata:
   namespace: ambassador
   labels:
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -387,7 +390,7 @@ metadata:
   namespace: ambassador
   labels:
     app.kubernetes.io/name: edge-stack
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -427,7 +430,7 @@ metadata:
   labels:
     app.kubernetes.io/name: edge-stack-agent
     app.kubernetes.io/part-of: edge-stack
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/managed-by: Helm
     product: aes
@@ -449,7 +452,7 @@ metadata:
   namespace: ambassador
   labels:
     app.kubernetes.io/name: edge-stack
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -487,7 +490,7 @@ metadata:
   labels:
     app.kubernetes.io/name: edge-stack-redis
     app.kubernetes.io/part-of: edge-stack
-    helm.sh/chart: edge-stack-7.6.1
+    helm.sh/chart: edge-stack-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/managed-by: Helm
   annotations:
@@ -516,7 +519,7 @@ metadata:
   namespace: ambassador
   labels:
     app.kubernetes.io/name: edge-stack-agent
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -531,7 +534,7 @@ spec:
     metadata:
       labels:
         app.kubernetes.io/name: edge-stack-agent
-        helm.sh/chart: emissary-ingress-7.6.1
+        helm.sh/chart: emissary-ingress-8.6.0
         app.kubernetes.io/instance: edge-stack
         app.kubernetes.io/part-of: edge-stack
         app.kubernetes.io/managed-by: Helm
@@ -540,9 +543,8 @@ spec:
       serviceAccountName: edge-stack-agent
       containers:
       - name: agent
-        image: docker.io/datawire/aes:2.5.1
+        image: "docker.io/ambassador/ambassador-agent:1.0.3"
         imagePullPolicy: IfNotPresent
-        command: [ "agent" ]
         ports:
           - containerPort: 8080
             name: http
@@ -557,6 +559,11 @@ spec:
           value: https://app.getambassador.io/
         - name: AES_SNAPSHOT_URL
           value: "http://edge-stack-admin.ambassador:8005/snapshot-external"
+        - name: AES_REPORT_DIAGNOSTICS_TO_CLOUD
+          value: "true"
+        - name: AES_DIAGNOSTICS_URL
+          value: "http://edge-stack-admin.ambassador:8877/ambassador/v0/diag/?json=true"
+
   
   
   progressDeadlineSeconds: 600
@@ -569,7 +576,7 @@ metadata:
   namespace: ambassador
   labels:
     app.kubernetes.io/name: edge-stack
-    helm.sh/chart: emissary-ingress-7.6.1
+    helm.sh/chart: emissary-ingress-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/part-of: edge-stack
     app.kubernetes.io/managed-by: Helm
@@ -589,7 +596,7 @@ spec:
     metadata:
       labels:
         app.kubernetes.io/name: edge-stack
-        helm.sh/chart: emissary-ingress-7.6.1
+        helm.sh/chart: emissary-ingress-8.6.0
         app.kubernetes.io/instance: edge-stack
         app.kubernetes.io/part-of: edge-stack
         app.kubernetes.io/managed-by: Helm
@@ -614,7 +621,7 @@ spec:
         
       containers:
         - name: emissary-ingress
-          image: docker.io/datawire/aes:2.5.1
+          image: docker.io/datawire/aes:3.6.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
@@ -685,7 +692,7 @@ metadata:
   labels:
     app.kubernetes.io/name: edge-stack-redis
     app.kubernetes.io/part-of: edge-stack
-    helm.sh/chart: edge-stack-7.6.1
+    helm.sh/chart: edge-stack-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/managed-by: Helm
     product: aes
@@ -712,7 +719,7 @@ spec:
       restartPolicy: Always
 ---
 # Source: edge-stack/templates/aes-authservice.yaml
-apiVersion: getambassador.io/v2
+apiVersion: getambassador.io/v3alpha1
 kind: AuthService
 metadata:
   name: edge-stack-auth
@@ -720,18 +727,19 @@ metadata:
   labels:
     app.kubernetes.io/name: edge-stack
     app.kubernetes.io/part-of: edge-stack
-    helm.sh/chart: edge-stack-7.6.1
+    helm.sh/chart: edge-stack-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: edge-stack-auth
     product: aes
 spec:
   proto: grpc
+  protocol_version: v3
   auth_service: 127.0.0.1:8500
 ---
 # Source: edge-stack/templates/aes-internal.yaml
 # Configure DevPortal
-apiVersion: getambassador.io/v2
+apiVersion: getambassador.io/v3alpha1
 kind: Mapping
 metadata:
   # This Mapping name is referenced by convention, it's important to leave as-is.
@@ -740,18 +748,19 @@ metadata:
   labels:
     app.kubernetes.io/name: edge-stack
     app.kubernetes.io/part-of: edge-stack
-    helm.sh/chart: edge-stack-7.6.1
+    helm.sh/chart: edge-stack-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: edge-stack-devportal
     product: aes
 spec:
+  hostname: "*"
   prefix: /documentation/
   rewrite: "/docs/"
   service: "127.0.0.1:8500"
 ---
 # Source: edge-stack/templates/aes-internal.yaml
-apiVersion: getambassador.io/v2
+apiVersion: getambassador.io/v3alpha1
 kind: Mapping
 metadata:
   name: edge-stack-devportal-assets
@@ -759,12 +768,13 @@ metadata:
   labels:
     app.kubernetes.io/name: edge-stack
     app.kubernetes.io/part-of: edge-stack
-    helm.sh/chart: edge-stack-7.6.1
+    helm.sh/chart: edge-stack-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: edge-stack-devportal-assets
     product: aes
 spec:
+  hostname: "*"
   prefix: /documentation/(assets|styles)/(.*)(.css)
   prefix_regex: true
   regex_rewrite:
@@ -777,7 +787,7 @@ spec:
       append: false
 ---
 # Source: edge-stack/templates/aes-internal.yaml
-apiVersion: getambassador.io/v2
+apiVersion: getambassador.io/v3alpha1
 kind: Mapping
 metadata:
   # This Mapping name is what the demo uses. Sigh.
@@ -786,18 +796,19 @@ metadata:
   labels:
     app.kubernetes.io/name: edge-stack
     app.kubernetes.io/part-of: edge-stack
-    helm.sh/chart: edge-stack-7.6.1
+    helm.sh/chart: edge-stack-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: edge-stack-devportal-demo
     product: aes
 spec:
+  hostname: "*"
   prefix: /docs/
   rewrite: "/docs/"
   service: "127.0.0.1:8500"
 ---
 # Source: edge-stack/templates/aes-internal.yaml
-apiVersion: getambassador.io/v2
+apiVersion: getambassador.io/v3alpha1
 kind: Mapping
 metadata:
   # This Mapping name is referenced by convention, it's important to leave as-is.
@@ -806,18 +817,39 @@ metadata:
   labels:
     app.kubernetes.io/name: edge-stack
     app.kubernetes.io/part-of: edge-stack
-    helm.sh/chart: edge-stack-7.6.1
+    helm.sh/chart: edge-stack-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: edge-stack-devportal-api
     product: aes
 spec:
+  hostname: "*"
   prefix: /openapi/
   rewrite: ""
   service: "127.0.0.1:8500"
 ---
+# Source: edge-stack/charts/emissary-ingress/templates/module.yaml
+apiVersion: getambassador.io/v3alpha1
+kind: Module
+metadata:
+  name: ambassador
+  namespace: ambassador
+  labels:
+    app.kubernetes.io/name: edge-stack
+    helm.sh/chart: emissary-ingress-8.6.0
+    app.kubernetes.io/instance: edge-stack
+    app.kubernetes.io/part-of: edge-stack
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/component: edge-stack-ratelimit
+    product: aes
+spec:
+  config:
+    diagnostics:
+      allow_non_local: true
+      enabled: false
+---
 # Source: edge-stack/templates/aes-ratelimit.yaml
-apiVersion: getambassador.io/v2
+apiVersion: getambassador.io/v3alpha1
 kind: RateLimitService
 metadata:
   name: edge-stack-ratelimit
@@ -825,11 +857,12 @@ metadata:
   labels:
     app.kubernetes.io/name: edge-stack
     app.kubernetes.io/part-of: edge-stack
-    helm.sh/chart: edge-stack-7.6.1
+    helm.sh/chart: edge-stack-8.6.0
     app.kubernetes.io/instance: edge-stack
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: edge-stack-ratelimit
     product: aes
 spec:
   service: 127.0.0.1:8500
+  protocol_version: v3
 
