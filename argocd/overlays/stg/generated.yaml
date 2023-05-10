@@ -104,7 +104,7 @@ metadata:
     app.kubernetes.io/part-of: argocd
 type: Opaque
 stringData:
-  slack-token: xoxb-4576253197394-5223330440659-MkKyxipF790takQ6GMiTuCMw
+  slack-token: eG94Yi00NTc2MjUzMTk3Mzk0LTUyMjMzMzA0NDA2NTktdWJFTHduQTJyMENhUG5MRkZ5Tmc1U1JX
 ---
 # Source: argo-cd/templates/argocd-configs/argocd-secret.yaml
 apiVersion: v1
@@ -219,7 +219,7 @@ data:
     token: $slack-token
   subscriptions: |
     - recipients:
-      - slack:argocd-notifications
+      - slack:limited-argocd-notifications
       triggers:
       - on-deployed
       - on-health-degraded

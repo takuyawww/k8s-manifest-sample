@@ -5,18 +5,16 @@ notifications:
   secret:
     create: true
     items:
-      slack-token: xoxb-4576253197394-5223330440659-MkKyxipF790takQ6GMiTuCMw
+      slack-token: eG94Yi00NTc2MjUzMTk3Mzk0LTUyMjMzMzA0NDA2NTktdWJFTHduQTJyMENhUG5MRkZ5Tmc1U1JX
   subscriptions:
-    # For more information: https://argocd-notifications.readthedocs.io/en/stable/subscriptions/
     - recipients:
-        - slack:argocd-notifications
+        - slack:limited-argocd-notifications
       triggers:
         - on-deployed
         - on-health-degraded
         - on-sync-failed
         - on-sync-status-unknown
   templates:
-    # For more information: https://argocd-notifications.readthedocs.io/en/stable/templates/
     template.app-deployed: |
       email:
         subject: New version of an application {{.app.metadata.name}} is up and running.
@@ -172,7 +170,6 @@ notifications:
       slack:
         attachments: "[{\n  \"title\": \"{{ .app.metadata.name}}\",\n  \"title_link\":\"hoge/applications/{{.app.metadata.name}}\",\n  \"color\": \"#18be52\",\n  \"fields\": [\n  {\n    \"title\": \"Sync Status\",\n    \"value\": \"{{.app.status.sync.status}}\",\n    \"short\": true\n  },\n  {\n    \"title\": \"Repository\",\n    \"value\": \"{{.app.spec.source.repoURL}}\",\n    \"short\": true\n  }\n  {{range $index, $c := .app.status.conditions}}\n  {{if not $index}},{{end}}\n  {{if $index}},{{end}}\n  {\n    \"title\": \"{{$c.type}}\",\n    \"value\": \"{{$c.message}}\",\n    \"short\": true\n  }\n  {{end}}\n  ]\n}]    "
   triggers:
-    # For more information: https://argocd-notifications.readthedocs.io/en/stable/triggers/
     trigger.on-deployed: |
       - description: Application is synced and healthy. Triggered once per commit.
         oncePer: app.status.operationState.syncResult.revision
