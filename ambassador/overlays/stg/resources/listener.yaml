@@ -3,7 +3,7 @@ kind: Listener
 metadata:
   name: ambassador-edge-stack-http-listener-8080
 spec:
-  port: 8000
+  port: 8080
   protocol: HTTP
   securityModel: XFP
   hostBinding:
