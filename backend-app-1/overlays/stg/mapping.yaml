@@ -2,8 +2,6 @@ apiVersion: getambassador.io/v2
 kind: Mapping
 metadata:
   name: backend-app-1-mapping
-  labels:
-    localhost: localhost
 spec:
   prefix: "/api/"
   service: service.backend-app-1
