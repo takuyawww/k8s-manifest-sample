@@ -1,0 +1,37 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: argo-workflow-step-
+spec:
+  entrypoint: main
+  templates:
+    - name: main
+      steps:
+        - - name: step1
+            template: sleep-3-seconds
+        - - name: step2
+            template: sleep-5-seconds
+          - name: step3
+            template: sleep-10-seconds
+
+    - name: sleep-3-seconds
+      container:
+        image: alpine
+        command: ["sh", "-c"]
+        args:
+          - |
+            sleep 3
+    - name: sleep-5-seconds
+      container:
+        image: alpine
+        command: ["sh", "-c"]
+        args:
+          - |
+            sleep 5
+    - name: sleep-10-seconds
+      container:
+        image: alpine
+        command: ["sh", "-c"]
+        args:
+          - |
+            sleep 10
