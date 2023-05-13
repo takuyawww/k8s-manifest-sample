@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Workflow
 metadata:
-  generateName: argo-workflow-step-
+  name: argo-workflow-step
 spec:
   entrypoint: main
   templates:
