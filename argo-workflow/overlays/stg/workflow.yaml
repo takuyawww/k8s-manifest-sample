@@ -10,23 +10,23 @@ spec:
         - - name: step1
             template: sleep-seconds
             arguments:
-              parameters: 3
+              parameters: [{ name: duration, value: 3 }]
         - - name: step2
             template: sleep-seconds
             arguments:
-              parameters: 5
+              parameters: [{ name: duration, value: 5 }]
         - - name: step3
             template: sleep-seconds
             arguments:
-              parameters: 10
+              parameters: [{ name: duration, value: 10 }]
         - - name: step4
             template: sleep-seconds
             arguments:
-              parameters: 15
+              parameters: [{ name: duration, value: 15 }]
         - - name: step5
             template: sleep-seconds
             arguments:
-              parameters: 20
+              parameters: [{ name: duration, value: 20 }]
 
     - name: sleep-seconds
       inputs:
@@ -37,4 +37,4 @@ spec:
         command: ["sh", "-c"]
         args:
           - |
-            sleep "{{inputs.parameters.duration}}"
+            sleep "{{inputs.parameters.duration}}""
