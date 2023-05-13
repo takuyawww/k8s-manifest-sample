@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: backend-app-1-post-sync-job
+  annotations:
+    argocd.argoproj.io/hook: PostSync
+    argocd.argoproj.io/hook-delete-policy: HookSucceeded
+spec:
+  completions: 3
+  parallelism: 2
+  template:
+    spec:
+      containers:
+        - name: sleep
+          image: alpine
+          command: ["sh", "-c"]
+          args:
+            - |
+              sleep 10
+      restartPolicy: Never
