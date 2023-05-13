@@ -4,7 +4,6 @@ metadata:
   name: backend-app-1-pre-sync-job
   annotations:
     argocd.argoproj.io/hook: PreSync
-    argocd.argoproj.io/hook-delete-policy: HookSucceeded
 spec:
   completions: 3
   parallelism: 2
