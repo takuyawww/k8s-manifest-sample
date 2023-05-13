@@ -6,8 +6,8 @@ metadata:
     argocd.argoproj.io/hook: PostSync
     argocd.argoproj.io/hook-delete-policy: HookSucceeded
 spec:
-  completions: 3
-  parallelism: 2
+  completions: 1
+  parallelism: 1
   template:
     spec:
       containers:
@@ -16,5 +16,5 @@ spec:
           command: ["sh", "-c"]
           args:
             - |
-              sleep 2
+              sleep 1
       restartPolicy: Never
