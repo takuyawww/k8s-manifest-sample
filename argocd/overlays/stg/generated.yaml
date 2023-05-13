@@ -104,7 +104,7 @@ metadata:
     app.kubernetes.io/part-of: argocd
 type: Opaque
 stringData:
-  slack-token: xoxb-4576253197394-5257548779889-UjMms2dNinFTCQrME3R6GxzH
+  slack-token: xxx
 ---
 # Source: argo-cd/templates/argocd-configs/argocd-secret.yaml
 apiVersion: v1
