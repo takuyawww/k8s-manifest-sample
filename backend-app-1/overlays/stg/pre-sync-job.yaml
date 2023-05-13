@@ -16,5 +16,5 @@ spec:
           command: ["sh", "-c"]
           args:
             - |
-              sleep 60
+              sleep 10
       restartPolicy: Never
