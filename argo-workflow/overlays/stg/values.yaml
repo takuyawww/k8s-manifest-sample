@@ -1,0 +1,10 @@
+server:
+  enabled: true
+  baseHref: /
+  name: server
+  serviceType: NodePort
+  servicePort: 2746
+  serviceAccount:
+    create: true
+  replicas: 1
+  secure: false
