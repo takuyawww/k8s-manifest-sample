@@ -35,4 +35,4 @@ spec:
       container:
         image: alpine
         command: ["sh", "-c"]
-        args: ["sleep {{inputs.parameters.duration}}"]
+        args: sleep {{inputs.parameters.duration}}
