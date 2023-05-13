@@ -32,6 +32,6 @@ spec:
       inputs:
         parameters:
           - name: message
-      coniner:
+      container:
         image: alpine
         command: ["echo", "{{inputs.parameters.message}}"]
