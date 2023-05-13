@@ -4,5 +4,5 @@ metadata:
   name: backend-app-1-mapping
 spec:
   prefix: /api/
-  service: http://10.109.187.140:8081
+  service: backend-app-1-service.backend-app-1
   prefix_redirect: "/api/version"
