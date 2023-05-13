@@ -8,30 +8,30 @@ spec:
     - name: main
       steps:
         - - name: step1
-            template: sleep-seconds
+            template: echo-message
             arguments:
-              parameters: [{ name: "duration", value: 3 }]
+              parameters: [{ name: "message", value: "step1" }]
         - - name: step2
-            template: sleep-seconds
+            template: echo-message
             arguments:
-              parameters: [{ name: "duration", value: 5 }]
+              parameters: [{ name: "message", value: "step2" }]
         - - name: step3
-            template: sleep-seconds
+            template: echo-message
             arguments:
-              parameters: [{ name: "duration", value: 10 }]
+              parameters: [{ name: "message", value: "step3" }]
         - - name: step4
-            template: sleep-seconds
+            template: echo-message
             arguments:
-              parameters: [{ name: "duration", value: 15 }]
+              parameters: [{ name: "message", value: "step4" }]
         - - name: step5
-            template: sleep-seconds
+            template: echo-message
             arguments:
-              parameters: [{ name: "duration", value: 20 }]
+              parameters: [{ name: "message", value: "step5" }]
 
-    - name: sleep-seconds
+    - name: echo-message
       inputs:
         parameters:
-          - name: duration
-      container:
+          - name: message
+      coniner:
         image: alpine
-        command: ["sh", "-c", "sleep", "{{inputs.parameters.duration}}"]
+        command: ["echo", "{{inputs.parameters.message}}"]
