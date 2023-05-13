@@ -10,23 +10,23 @@ spec:
         - - name: step1
             template: sleep-seconds
             arguments:
-              parameters: [{ name: duration, value: 3 }]
+              parameters: [{ name: "duration", value: 3 }]
         - - name: step2
             template: sleep-seconds
             arguments:
-              parameters: [{ name: duration, value: 5 }]
+              parameters: [{ name: "duration", value: 5 }]
         - - name: step3
             template: sleep-seconds
             arguments:
-              parameters: [{ name: duration, value: 10 }]
+              parameters: [{ name: "duration", value: 10 }]
         - - name: step4
             template: sleep-seconds
             arguments:
-              parameters: [{ name: duration, value: 15 }]
+              parameters: [{ name: "duration", value: 15 }]
         - - name: step5
             template: sleep-seconds
             arguments:
-              parameters: [{ name: duration, value: 20 }]
+              parameters: [{ name: "duration", value: 20 }]
 
     - name: sleep-seconds
       inputs:
@@ -35,6 +35,4 @@ spec:
       container:
         image: alpine
         command: ["sh", "-c"]
-        args:
-          - |
-            sleep "{{inputs.parameters.duration}}""
+        args: ["sleep {{inputs.parameters.duration}}"]
