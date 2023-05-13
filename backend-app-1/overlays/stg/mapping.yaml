@@ -5,4 +5,3 @@ metadata:
 spec:
   prefix: /api/
   service: backend-app-1-service.backend-app-1
-  prefix_redirect: "/api/version"

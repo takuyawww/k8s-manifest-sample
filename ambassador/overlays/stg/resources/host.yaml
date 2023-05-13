@@ -3,10 +3,7 @@ kind: Host
 metadata:
   name: ambassador-host-local
 spec:
-  hostname: "127.0.0.1"
+  hostname: 127.0.0.1
   requestPolicy:
-  insecure:
-    action: Route
-  mappingSelector:
-    matchLabels:
-      localhost: localhost
+    insecure:
+      action: Route
